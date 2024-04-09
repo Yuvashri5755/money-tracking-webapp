@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://media.licdn.com/dms/image/sync/D5627AQFhK5BNStegtA/articleshare-shrink_800/0/1706626693748?e=2147483647&v=beta&t=u5s6AVUnNdwJWQNc6h2FwwvqkTfCIvp-_CFg1sKD2y8");
+    background-size:contain;
+    margin:10px;
+   }
+   h1,h2{
+    text-align: center;
+    color: rgb(255, 0, 0);
+   }
+   .input-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+   }
+   .input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+   }
+   .input-section input[type=”number”], .input-section input[type=”date”]{
+    padding: 5px;
+    margin-right: 10px;
+   }
+   .input-section button{
+    padding: 5px 10px;
+    background-color: rgb(238, 9, 9);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   .expenses-list{
+    margin: 20px;
+   }
+   table{
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    border-collapse: collapse;
+   }
+   th,td{
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 9px;
+    text-align: left;
+   }
+   th{
+    background-color: rgb(215, 222, 38);
+    color: rgb(12, 1, 1);
+   }
+   tfoot td{
+    font-weight: bold;
+   }
+   .delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(238, 9, 9);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   
